@@ -95,7 +95,7 @@ class EmpleadoTest {
 	}
 	@Test
 	void testCalculoNominaBrutaVentaMesMayor2500() {
-		ventaMes=1600;
+		ventaMes=2600;
 		float expected=2200;
 		float actual=Empleado.calculoNominaBruta(vendedor, ventaMes, horasExtras);
 		assertEquals(expected,actual);
